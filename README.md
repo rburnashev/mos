@@ -7,4 +7,7 @@ Use:
 ansible-playbook -e "target=hostname" --ask-vault-pass /path/to/repo/mos/main.yml
 
 vault_pass i will post by mail.
+
 if target host not have ssh keys - use -k options for enter root passwd
+
+## result you can see on page: http://hostname:8000
