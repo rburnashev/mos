@@ -4,6 +4,7 @@ Use:
 * Clone this repository on local mashine/
 * install ansible
 * Start playbook:
-ansible-playbook -e "target=hostname" /path/to/repo/mos/main.yml
+ansible-playbook -e "target=hostname" --ask-vault-pass /path/to/repo/mos/main.yml
 
+vault_pass i will post by mail.
 if target host not have ssh keys - use -k options for enter root passwd
